@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="../dist/bundle.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>To do app</h1>
+        <label for="search"><p>Create new to do</p></label>
+        <div class="input-field">
+            <input type="text" id="addToDo">
+            <button class="btn-search">
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </button>
+        </div>
+        <h2>Your to do</h2>
+        <ul class="to-do-list">
+        </ul>
+        
+    </header>
+
+    <section>
+        <section class="step-card-container">
+            <div class="step-card-heading">
+                <h2>High important steps</h2>
+                <div class="line red"></div>
+            </div>
+            <ul class="step-cards">
+            </ul>
+        </section>
+        <section class="step-card-container">
+            <div class="step-card-heading">
+                <h2>Important steps</h2>
+                <div class="line yellow"></div>
+            </div>
+            <ul class="step-cards">
+            </ul>
+        </section>
+        <section class="step-card-container">
+            <div class="step-card-heading">
+                <h2>Low important steps</h2>
+                <div class="line green"></div>
+            </div>
+            <ul class="step-cards">
+            </ul>
+        </section>
+    </section>
+
+</body>
+</html>
